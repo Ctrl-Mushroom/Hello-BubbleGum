@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>Home | BubbleGum</title>
+		<link rel="stylesheet" type="text/css" href="css/Homepage.css">
+		<link rel="icon" type="image/icon" href="images/Hello.png">
+	</head>
+
+	<body>
+		<center>
+			<div>
+				<ul>
+					<h3>
+						<li>
+							<a href="subpages/Index.html">Welcome Hug</a>
+						</li>
+
+						<li>
+							<a onmousedown="bleep.play()" href="#">Hit Me!!!</a>
+						</li>
+					</h3>
+				</ul>
+			</div>
+
+			<div class="main">
+				<img src="images/Hello.png" class="icon">
+
+				<h1>BubbleGum</h1>
+			</div>
+
+			<div class="container">Make your
+				<div class="flip">
+					<div>
+						<div>Work</div>
+					</div>
+					<div>
+						<div>Lifestyle</div>
+					</div>
+					<div>
+						<div>Everything</div>
+					</div>
+				</div>
+				Awesome!!!
+			</div>
+
+			<script>
+				var bleep = new Audio();
+				bleep.src = 'mp3/bleep.mp3';
+			</script>
+
+			<script src='https://storage.ko-fi.com/cdn/scripts/overlay-widget.js'></script>
+			<script>
+				kofiWidgetOverlay.draw('mushroom21', {
+					'type': 'floating-chat',
+					'floating-chat.donateButton.text': 'Tip Me',
+					'floating-chat.donateButton.background-color': '#ef4684',
+					'floating-chat.donateButton.text-color': '#ffffff'
+				});
+			</script>
+		</center>
+	</body>
+</html>
